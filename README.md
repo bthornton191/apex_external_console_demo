@@ -21,21 +21,14 @@ For reference, my apex python path is *C:\Program Files\MSC.Software\MSC Apex\20
 
 If your IDE doesn't automatically activate the new env environment, you can do so with the command:
 
-`env\Scripts\activate`
+`env\Scripts\**activate`**
 
 ### Step 2: Install 3rd Party Modules/Packages
 This you can install all the 3rd party dependencies required by this script to the env environment with the following command:
 
 `pip install -r requirements.txt`
 
----
-**NOTE**
-
-For future reference, you can create your own requirements.txt document using:
-
-`pip freeze>requirements.txt`
-
----
+**_NOTE:_**  For future reference, you can create your own requirements.txt document using `pip freeze>requirements.txt`
 
 ### Step 3: Run the script
 Run the main.py file via `python main.py` or through your IDE.
