@@ -1,8 +1,18 @@
-# pylint:disable=no-name-in-module, no-member, invalid-name, wrong-import-order
+# pylint:disable=no-name-in-module, no-member, wrong-import-position
 import os
-import launch_apex as _la       #pylint:disable=unused-import  
+import atexit
+# ---------- Launch Apex NOTE: This must be done before import apex -----------
+import remoting
+remoting.launchApplication()
+atexit.register(remoting.shutdownApplication) # Close Apex if script terminates
+# -----------------------------------------------------------------------------
 import apex
+
+# Import from local library
 from library import truss_sketch, find_constraint_nodes, find_load_nodes, get_unused_name
+
+# Define the units system
+apex.setScriptUnitSystem(unitSystemName = r'''in-slinch-s-lbf''') #pylint:disable=no-member
 
 # Define a directory for saving models
 SAVE_DIRECTORY = os.path.join(os.getcwd(), 'model')
@@ -15,6 +25,9 @@ if os.path.exists(SAVE_DIRECTORY) is False:
 TRUSS_ENDPOINTS = [(0, 0), (0, 100), (100, 0), (100, 100)]
 
 def build_truss_model():
+    """Builds a ready-to-solve model of a truss structure and saves the model.
+
+    """
     # Get the current model
     model = apex.currentModel()
 

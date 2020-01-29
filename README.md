@@ -6,7 +6,9 @@ One exciting feature of MSC Apex is the powerful python API.  I wanted learn how
 2. You can use 3rd party packages like pandas, numpy, and scipy.
 3. You can integrate your Apex scripts into a larger code base that runs outside of the Apex environment.
 
-The Apex documentation lays out a method for using 3rd party modules/packages in Apex scripts.  There were several reasons that I was not satisfied with this method (not the least of which is that I couldn't get it to work with pandas).  After some trial and error I came up with the method presented here using a virtual environment.  My hope is that the code in this repo can help you get a jump start on Apex scripting in external consoles.
+The Apex documentation lays out a method for using 3rd party modules/packages in Apex scripts.  There were several reasons that I was not satisfied with this method. I came up with the method presented here using a virtual environment.  I believe this method is far superior to the method in the documentation.
+
+My hope is that the code in this repo can help you get a jump start on Apex scripting in external consoles.
 
 ## Requirements
 You must have MSC Apex installed.  I currently have Iberian Lynx, but the script will *probably* work on any version.
