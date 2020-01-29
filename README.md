@@ -21,7 +21,7 @@ Create a virutal environment from the python installation shipped with apex by r
 
 If your IDE doesn't automatically activate the new env environment, you can do so with the command:
 
-`env\Scripts\**activate`**
+`env\Scripts\activate`
 
 ### Step 2: Install 3rd Party Modules/Packages
 This you can install all the 3rd party dependencies required by this script to the env environment with the following command:
