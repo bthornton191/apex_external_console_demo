@@ -28,7 +28,7 @@ This you can install all the 3rd party dependencies required by this script to t
 
 `pip install -r requirements.txt`
 
-**_NOTE:_**  For future reference, you can create your own requirements.txt document using `pip freeze>requirements.txt`
+> **TIP**: You can create your own requirements.txt document using `pip freeze>requirements.txt`
 
 ### Step 3: Run the script
 Run the main.py file via `python main.py` or through your IDE.
