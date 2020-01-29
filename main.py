@@ -14,7 +14,6 @@ if os.path.exists(SAVE_DIRECTORY) is False:
 # Define the endpoints of the truss
 TRUSS_ENDPOINTS = [(0, 0), (0, 100), (100, 0), (100, 100)]
 
-
 def build_truss_model():
     # Get the current model
     model = apex.currentModel()
