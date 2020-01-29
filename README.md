@@ -1,9 +1,10 @@
 # MSC Apex Scripting - External Console Demo
 
-One exciting feature of MSC Apex is the powerful python API.  I wanted learn how to launch Apex from an external console.  There are several reasons for using an external console.  The two big ones for mre
+One exciting feature of MSC Apex is the powerful python API.  I wanted learn how to launch Apex from an external console.  There are several reasons for using an external console.  The big ones for me are:
 
 1. You can use integrated development environmnents (IDE) like vscode or pycharm and make use of powerful tools like autocompletion, linting, and debugging.
-2. You can integrate your Apex scripts into a larger code base that runs outside of the Apex environment
+2. You can use 3rd party packages like pandas, numpy, and scipy.
+3. You can integrate your Apex scripts into a larger code base that runs outside of the Apex environment.
 
 The Apex documentation lays out a method for using 3rd party modules/packages in Apex scripts.  There were several reasons that I was not satisfied with this method (not the lease of which is that I couldn't get it to work with pandas).  After some trial and error I came up with the method presented here using a virtual environment.  My hope is that the code in this repo can help you get a jump start on Apex scripting in external consoles.
 
