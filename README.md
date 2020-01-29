@@ -17,7 +17,7 @@ Create a virutal environment from the python installation shipped with apex by r
 
 `"<path-to-apex-python>\python.exe" -m venv env --system-site-packages`
 
-For reference, my apex python path is *C:\Program Files\MSC.Software\MSC Apex\2019-652722\python3\\*
+> **TIP**: For reference, my command looks like this *"C:\Program Files\MSC.Software\MSC Apex\2019-652722\python3\python.exe" -m venv env --system-site-packages*
 
 If your IDE doesn't automatically activate the new env environment, you can do so with the command:
 
@@ -32,6 +32,11 @@ This you can install all the 3rd party dependencies required by this script to t
 
 ### Step 3: Run the script
 Run the main.py file via `python main.py` or through your IDE.
+
+> **TIP**: Try stepping through line by line using your IDE's debugger.
+
+## Next Steps
+You'll notice that the code in this repo doesn't do any solving or post-processing.  I ran into an error when I tried to solve the model from the external terminal.  Saving then manually opening and solving seems to work.  I would like to get this worked out soon.  I also plan to look into creating screenshots and animations within a script.   
 
 ## Contributing
 Please don't hesitate to message/email me if you have any suggestions that might improve this repo.
