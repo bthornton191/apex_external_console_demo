@@ -40,7 +40,7 @@ Run the main.py file via `python main.py` or through your IDE.
 
 ## Checkout The Video Tutorial
 
-[![Video Tutorial](https://img.youtube.com/vi/qGSp4hEEUBk/0.jpg)](https://www.youtube.com/watch?v=qGSp4hEEUBk)
+[![Video Tutorial](https://img.youtube.com/vi/jV3S_zycY1w/0.jpg)](https://www.youtube.com/watch?v=jV3S_zycY1w)
 
 
 ## Next Steps
